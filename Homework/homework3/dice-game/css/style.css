@@ -1,0 +1,43 @@
+header {
+    margin: auto;
+    border: 10px solid;
+    border-radius: 20px;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    width: 750px;
+    height: 250px;
+}
+
+main {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h1 {
+    font-size: 7em;
+    text-align: center;
+    font-family: "Lobster";
+}
+
+input{
+    top: 900px;
+    text-align: center;
+    position:absolute;
+    font-size:1.6em;
+    background-color: Black;
+    box-shadow: 10px 10px 5px #888888;
+    font-weight:bold;
+    color:white;
+    cursor:pointer;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    position:absolute;
+    top: 1050px;
+    width: 720px;
+    text-align: center;
+    font-size: 1.5em;
+}
