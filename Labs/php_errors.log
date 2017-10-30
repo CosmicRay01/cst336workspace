@@ -1,0 +1,78 @@
+[13-Oct-2017 19:24:43 UTC] PHP Warning:  include(../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 3
+[13-Oct-2017 19:24:43 UTC] PHP Stack trace:
+[13-Oct-2017 19:24:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[13-Oct-2017 19:24:43 UTC] PHP Warning:  include(): Failed opening '../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 3
+[13-Oct-2017 19:24:43 UTC] PHP Stack trace:
+[13-Oct-2017 19:24:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[13-Oct-2017 19:24:43 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 5
+[13-Oct-2017 19:24:43 UTC] PHP Stack trace:
+[13-Oct-2017 19:24:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[13-Oct-2017 19:30:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'tcp'' in /home/ubuntu/workspace/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/dbConnection.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/dbConnection.php on line 21
+[13-Oct-2017 20:30:34 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/cst336workspace/Labs/lab5/checkoutHistory.php on line 15
+[13-Oct-2017 20:31:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336workspace/Labs/lab5/checkoutHistory.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab5/checkoutHistory.php(18): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336workspace/Labs/lab5/checkoutHistory.php(40): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab5/checkoutHistory.php on line 18
+[13-Oct-2017 20:31:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336workspace/Labs/lab5/checkoutHistory.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab5/checkoutHistory.php(18): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336workspace/Labs/lab5/checkoutHistory.php(40): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab5/checkoutHistory.php on line 18
+[13-Oct-2017 20:32:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 123
+[13-Oct-2017 20:33:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336workspace/Labs/lab5/checkoutHistory.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab5/checkoutHistory.php(18): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336workspace/Labs/lab5/checkoutHistory.php(40): displayCheckoutHistory()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab5/checkoutHistory.php on line 18
+[18-Oct-2017 19:58:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''5528b3e1287bc7d834ffafeeaffbdb1d83fd5be7' at line 1' in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php on line 11
+[18-Oct-2017 19:59:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''da39a3ee5e6b4b0d3255bfef95601890afd80709' at line 1' in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php on line 12
+[18-Oct-2017 20:09:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php on line 37
+[18-Oct-2017 20:12:12 UTC] PHP Fatal error:  Call to undefined function displayUsers() in /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php on line 16
+[18-Oct-2017 20:12:12 UTC] PHP Stack trace:
+[18-Oct-2017 20:12:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php:0
+[20-Oct-2017 22:02:01 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 3
+[20-Oct-2017 22:02:01 UTC] PHP Stack trace:
+[20-Oct-2017 22:02:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[20-Oct-2017 22:02:01 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 3
+[20-Oct-2017 22:02:01 UTC] PHP Stack trace:
+[20-Oct-2017 22:02:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[20-Oct-2017 22:02:01 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 5
+[20-Oct-2017 22:02:01 UTC] PHP Stack trace:
+[20-Oct-2017 22:02:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[20-Oct-2017 22:03:02 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 3
+[20-Oct-2017 22:03:02 UTC] PHP Stack trace:
+[20-Oct-2017 22:03:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[20-Oct-2017 22:03:02 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 3
+[20-Oct-2017 22:03:02 UTC] PHP Stack trace:
+[20-Oct-2017 22:03:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[20-Oct-2017 22:03:02 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 5
+[20-Oct-2017 22:03:02 UTC] PHP Stack trace:
+[20-Oct-2017 22:03:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[20-Oct-2017 22:03:19 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 3
+[20-Oct-2017 22:03:19 UTC] PHP Stack trace:
+[20-Oct-2017 22:03:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[20-Oct-2017 22:03:19 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 3
+[20-Oct-2017 22:03:19 UTC] PHP Stack trace:
+[20-Oct-2017 22:03:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[20-Oct-2017 22:03:19 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 5
+[20-Oct-2017 22:03:19 UTC] PHP Stack trace:
+[20-Oct-2017 22:03:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[27-Oct-2017 20:29:09 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php on line 73
+[27-Oct-2017 20:29:25 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php on line 73
