@@ -22,22 +22,21 @@
             $j=$i+1;
             // Checks if next value is duplicate
             if($dice[$i] == $dice[$j]){
-                echo "Value $dice[$i] to the power of ";
-                $duplicate = 1;
+                echo "Value $dice[$i] times ";
+                $duplicates = 1;
                 $value = $dice[$i];
                 $points = $value;
                 // Counts total duplicates in acending order
                 while($dice[$i] == $dice[$j]){
-                   $duplicate++;
+                   $duplicates++;
                    $j++;
                }
                // Calculates points earned
-               for($ii = 1; $ii<$duplicate; $ii++){
-                   $points = $points*$value;
-               }
+               $points = $points*$duplicates;
+               
                // Prints amount of duplicates and points
                $totalPoints += $points;
-               echo "$duplicate duplicates equals $points points";
+               echo "$duplicates duplicates equals $points points";
                // Sets i to next unique face value
                $i = $j-1;
                echo "<br>";
@@ -56,6 +55,10 @@
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
         <style>
             @import url("css/styles.css");
+            input {
+                float: left;
+}
+
         </style>
     </head>
     
@@ -63,8 +66,10 @@
         <header>
             <h1>Dice Game</h1>
         </header>
-        <main>
-            <br/><br />
+        <!--
+        <table>
+        <tr>
+            <td>
         <?php
             if(!isset($_GET['number'])){
                 echo "<h2> Enter the number of dice you would like to roll. </h2>";
@@ -72,13 +77,33 @@
                 playGame($_GET['number']);
             }
         ?>
-        <br/><br />
-        <form>
-            <input type="text" name="number" placeholder="      Num of Dice" value="<?=$GET_['number']?>"/>
-            <input type="submit" value ="Reroll!"/>
-        </form>
-        </main>
+        <ul>
+            <li>
+                <form>
+                    <input type="text" name="number" placeholder="      Num of Dice" value="<?=$GET_['number']?>"/>
+                </form>
+            </li>
+            <li>
+                <form>
+                    <input type="submit" value ="Reroll!"/>
+                </form>
+            </li>
+        </ul>
+         </table> 
+         -->
+    <?php
+            if(!isset($_GET['number'])){
+                echo "<h2> Enter the number of dice you would like to roll. </h2>";
+            } else {
+                playGame($_GET['number']);
+            }
+        ?>
     </body>
+    
+      <form>
+ <input type="text" name="number" placeholder="      Num of Dice" value="<?=$GET_['number']?>"/>
+    <input type="submit" value ="Reroll!"/>
+</form>
     <footer>
             <figure id ="otter">
                 <img src="img/otter.png">

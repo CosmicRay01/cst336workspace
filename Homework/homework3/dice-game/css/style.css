@@ -9,9 +9,8 @@ header {
     height: 250px;
 }
 
-main {
-    text-align: center;
-    font-size: 2.5em;
+form {
+    float: left;
 }
 
 h1 {
