@@ -1,7 +1,7 @@
 <?php
 
 
-function getDatabaseConnection($dbname = 'tcp'){
+function getDatabaseConnection($dbname='heroku_e025c2bcd9ffba75c'){
     
     $host = 'localhost';//cloud 9
     // $dbname = 'tcp';
