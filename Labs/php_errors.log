@@ -92,3 +92,18 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php(80): displayUsers()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php on line 21
+[02-Nov-2017 02:32:49 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 3
+[02-Nov-2017 02:32:49 UTC] PHP Stack trace:
+[02-Nov-2017 02:32:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[02-Nov-2017 02:32:49 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 3
+[02-Nov-2017 02:32:49 UTC] PHP Stack trace:
+[02-Nov-2017 02:32:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[02-Nov-2017 02:32:49 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 5
+[02-Nov-2017 02:32:49 UTC] PHP Stack trace:
+[02-Nov-2017 02:32:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:0
+[02-Nov-2017 02:33:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'midterm.tc_device' doesn't exist' in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php(99): getDeviceTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 14

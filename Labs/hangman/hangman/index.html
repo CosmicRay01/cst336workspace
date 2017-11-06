@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman</title>
+        <link  href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            #won, #lost {
+                display: none;
+            }
+            #word, #letters {
+                padding: 10px, 0px;
+            }
+            #man {
+                margin 10px auto;
+                width: 300px;
+                height: 400px;
+                border: solid;
+                border-radius: 5px;
+                border-width: 1px;
+            }
+            #word {
+                font-size: 1.5em;
+            }
+            .hint {
+                font-size: .7em !important;
+            }
+            .btn {
+                padding: 7px 7px !important;
+                margin: 0px 2px;
+            }
+        </style>
+        
+        
+        
+    </head>
+    <body>
+
+
+        <div class='container text-center'>
+            <header>
+               <h1>Hangman</h1>
+            </header>
+            
+            <div id="word"></div>
+            <div id="letters">
+                
+              <!--
+                <input type="text" id="letterBox" />
+                <button id="letterBtn">Submit!</button>
+               -->
+              
+            </div>
+            
+            <div id="won">
+                <h2>You Won!</h2>
+                <button class="replayBtn btn btn-success">Play Again</button>
+            </div>
+            <div id="lost">
+                <h2>You Lost!</h2>
+                <button class="replayBtn btn btn-warning">Play Again</button>
+            </div>
+            
+            <div id="man">
+               <img src="img/stick_0.png" id="hangImg">
+            </div>
+        </div>
+
+    <script>
+
+            function updateImage() {
+                
+                //document.getElementById("man").innerHTML = "<img src='img/stick_5.png' >";
+                $("img").attr("src","img/stick_3.png");
+            }
+            
+            function updateMan(){
+                $("#hangImg").attr("src", "img/stick_" + (6 - remainingGuesses) + ".png");
+            }
+    
+            
+            var selectedWord = "";
+            var selectedHint = "";
+            var board = "";
+            var remainingGuesses = 6;
+            var words = [{word: "eel", hint: "The snake of the sea." },
+                         {word: "jellyfish", hint: "See through and stings." },
+                         {word: "whale", hint: "The largest animal in the world."},
+                         {word: "octopus", hint: "Has many limbs."},
+                         {word: "shark", hint: "Apex preditor."}];
+            var wordss = ["eel", "jellyfish", "whale", "octopus", "shark"];
+            var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 
+                            'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 
+                            'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+
+            
+            startGame();
+            
+            function startGame() {
+                
+                pickWord();
+                initBoard();
+                updateBoard();
+                createLetters();
+                
+            }
+            
+            function pickWord() {
+                var randomInt = Math.floor( Math.random() * words.length );
+                selectedWord = words[randomInt].word.toUpperCase();
+                selectedHint = words[randomInt].hint;
+                //console.log(selectedWord);
+            }
+            
+            function initBoard() {
+                
+                for (var letter in selectedWord) {
+                    
+                    board += '_';
+                    
+                }
+                
+                console.log(board);
+                
+            }
+            
+            function updateBoard() {
+                $("#word").empty();
+                for (var letter of board) {
+                    document.getElementById("word").innerHTML += letter + " ";
+                }
+                $("#word").append("<br/>");
+                $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span");
+            }
+            
+            
+            function createLetters(){
+                
+                for (var letter of alphabet) {
+                    
+                    $("#letters").append("<button class='letter' id='"+letter+"'>" + letter + "</button>");
+                }
+                
+            }
+            
+            
+            function checkLetter(letter) {
+                
+                var positions = new Array();
+                
+                for (var i=0; i < selectedWord.length; i++) {
+                    
+                    if (letter == selectedWord[i]) {
+                        
+                        positions.push(i);
+                        
+                    }
+                    
+                }
+                
+                if (positions.length > 0) {
+                    
+                    updateWord(positions, letter);
+                    if(!board.includes('_')){
+                        endGame(true);
+                    }
+                    
+                } else {
+                    
+                    remainingGuesses--;
+                    updateMan();
+                    //$("#hangImg").attr("src", "img/stick_" + (6 - remainingGuesses) + ".png" );
+                }
+                
+                if(remainingGuesses <= 0) {
+                    endGame(false);
+                }
+                
+                
+            }
+            
+            function updateWord(positions, letter){
+                for (var pos of positions) {
+                    board = replaceAt(board, pos, letter);
+                }
+                updateBoard();
+                console.log(board);
+            }
+            
+            function replaceAt(str, index, value) {
+                var s = str.substr(0, index) + value + str.substr(index+1, str.length); 
+                return s;
+            }
+            
+            function endGame(win){
+                $("#letters").hide();
+                if(win){
+                    $('#won').show();
+                }
+                else{
+                    $('#lost').show();
+                }
+            }
+            
+            function disableButton(btn){
+                btn.prop("disabled", true);
+                btn.attr("class","btn btn-danger")
+            }
+            
+            //events
+            
+            $(".letter").click( function(){ 
+                //alert($(this).attr("id"));
+                checkLetter( $(this).attr("id") );
+                disableButton($(this));
+                
+            });
+            
+            $(".replayBtn").on("click", function(){
+                location.reload();
+            });
+
+            
+        </script>
+
+    </body>
+</html>

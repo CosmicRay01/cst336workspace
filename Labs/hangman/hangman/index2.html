@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman</title>
+        <link  href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        
+        
+    </head>
+    <body>
+
+
+        <div class='container text-center'>
+            <header>
+               <h1>Hangman</h1>
+            </header>
+            
+            <div id="word"></div>
+            <div id="letters">
+                
+              <!--
+                <input type="text" id="letterBox" />
+                <button id="letterBtn">Submit!</button>
+               -->
+              
+            </div>
+            
+            <div id="man">
+               <img src="img/stick_0.png" id="hangImg">
+            </div>
+            
+            <div id="won">
+                <h2>You Won!</h2>
+                <button class="replayBtn btn btn-success">Play Again</button>
+            </div>
+            <div id="lost">
+                <h2>You Lost!</h2>
+                <button class="replayBtn btn btn-warning">Play Again</button>
+            </div>
+        </div>
+
+    <script>
+    
+            $("#letterBtn").click( function(){ 
+               // updateImage();
+               
+               var boxVal = $("#letterBox").val();
+               alert(boxVal);
+               
+            } );
+            
+    
+            function updateImage() {
+                
+                //document.getElementById("man").innerHTML = "<img src='img/stick_5.png' >";
+                $("img").attr("src","img/stick_3.png");
+            }
+            
+            function updateMan(){
+                $("#hangImg").attr("src", "img/stick_" + (6 - remainingGuesses) + ".png");
+            }
+    
+            
+            var selectedWord = "";
+            var selectedHint = "";
+            var board = "";
+            var remainingGuesses = 6;
+            var words = ["eel", "jellyfish", "whale", "octopus", "shark"];
+            var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 
+                            'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 
+                            'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+
+            
+            startGame();
+            
+            function startGame() {
+                
+                pickWord();
+                initBoard();
+                updateBoard();
+                createLetters();
+                
+            }
+            
+            function pickWord() {
+                var randomInt = Math.floor( Math.random() * words.length );
+                selectedWord = words[randomInt].toUpperCase();
+                //console.log(selectedWord);
+            }
+            
+            function updateBoard() {
+                $("#word").empty();
+                for (var letter of board) {
+                    document.getElementById("word").innerHTML += letter + " ";
+                }
+            }
+            
+            function initBoard() {
+                
+                for (var i=0; i < selectedWord.length; i++ ) {
+                    
+                    board += "_";
+                    
+                }
+                
+                console.log(board);
+                
+            }
+            
+            function createLetters(){
+                
+                for (var letter of alphabet) {
+                    
+                    $("#letters").append("<button class='letter' id='"+letter+"'>" + letter + "</button>");
+                }
+                
+            }
+            
+            
+            function checkLetter(letter) {
+                
+                var positions = [];
+                
+                for (var i=0; i < selectedWord; i++) {
+                    
+                    if (letter == selectedWord[i]) {
+                        
+                        positions.push(i);
+                        
+                    }
+                    
+                }
+                
+                if (positions.length > 0) {
+                    
+                    updateWord(positions, letter);
+                    if(!board.includes('_')){
+                        endGame(true);
+                    }
+                    
+                } else {
+                    
+                    remainingGuesses--;
+                    updateMan();
+                    //$("#hangImg").attr("src", "img/stick_" + (6 - remainingGuesses) + ".png" );
+                }
+                
+                if(remainingGuesses <= 0) {
+                    endGame(false);
+                }
+                
+                
+            }
+            
+            function updateWord(positions, letter){
+                for (var pos of positions) {
+                    board = replaceAt(board, pos, letter);
+                }
+                updateBoard();
+            }
+            
+            function replaceAt(str, index, value) {
+                return str.substr(0, index) + value + str.substr(index, value.length);
+            }
+            
+            function endGame(win){
+                $("letters").hide();
+                if(win){
+                    $('#won').show();
+                }
+                else{
+                    $('#lost').show();
+                }
+            }
+            
+            //events
+            
+            $("button").click( function(){ 
+                //alert($(this).attr("id"));
+                checkLetter( $(this).attr("id") );
+                
+            });
+            
+            $(".replayBtn").on("click", function(){
+                location.reload();
+            });
+
+            
+        </script>
+
+    </body>
+</html>
