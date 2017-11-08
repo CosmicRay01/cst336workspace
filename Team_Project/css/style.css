@@ -1,0 +1,123 @@
+#page,#infoPage
+{
+    text-align: center;
+    
+}
+
+a {
+    color: #000;
+}
+
+#title
+{
+    text-align: center; 
+    color: #fff;
+    background: rgba(153, 0, 61, 0.73);
+    width: 100%;
+    height: 150px;
+    font-size: 80px;
+    padding: 20px;
+    margin:0px auto;
+}
+
+
+#wholePage
+{
+    
+    border-radius: 25px;
+    border: 2px solid white;
+    padding-top: 20px; 
+    width:300px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+#mainPage
+{
+    color: #ff5050;
+    font-size: 25px;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding-top: 5px; 
+    width:700px;
+    height: 3600px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#infoPage
+{
+    height: 900px;    
+}
+
+#infoBox
+{
+     text-align: left;
+     background-color: #fff;
+     width: 35%;
+     border: 30px #48a7d6;
+     padding: 40px;
+     margin:0px auto;
+     font-size: 30px;
+     color: #ff5050;
+     border-radius: 30px;     
+}
+
+#cartBox
+{
+     text-align: center;
+     background-color: #fff;
+     width: 30%;
+     border: 30px #48a7d6;
+     padding: 40px;
+     margin:0px auto;
+     font-size: 30px;
+     color: #ff5050;
+     border-radius: 30px;
+     
+}
+
+#checkoutPage
+{
+     text-align: center;
+     height: 800px;
+     color: #fff;
+     
+   
+}
+
+#shoppingButtons
+{
+      font-size: 30px;
+      width: 30%;
+      padding: 20px;
+      margin:0px auto;
+      
+}
+
+input[type=submit] {
+  
+    padding: 12px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to bottom, #ff5050 0%, #ff99cc 100%);
+    border: none;
+    border-radius: 50%;
+   
+    
+}
+
+
+input[type=submit]:active 
+{
+  background-color: #336600;
+  
+  transform: translateY(4px);
+
+}
