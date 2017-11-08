@@ -20,9 +20,11 @@ function displayCandy() {
     $candy = displayCandy();
     
     $candyname = $candy['candyName'];
+    $candyprice =$candy['priceId'];
     
     
     $_SESSION['cart'][] = $candyname;
+    $_SESSION['price'][]= $candyprice;
 
        
     header("Location: index.php");

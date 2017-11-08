@@ -45,13 +45,26 @@ $conn = getDatabaseConnection();
             echo"<h2>Current item(s) in cart: </h2><br>";
             echo "<hr>";
            $displaycart = $_SESSION['cart'];
+           $displayprice = $_SESSION['price'];
        
     
            for($i = 0 ; $i < count($displaycart) ; $i++) 
            {
-                echo $displaycart[$i] ;
+                echo $displaycart[$i] . "&nbsp;&nbsp;    $" . $displayprice[$i];
                 echo '<br>';
                 echo "<hr>";
+           }
+           
+           
+           
+           if($displayprice!=NULL)
+           {
+                echo  "<strong>Total: $". array_sum($displayprice)."</strong>" ;
+    
+           }
+           else
+           {
+               echo "Cart is empty.";
            }
  
             
