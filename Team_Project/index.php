@@ -174,7 +174,7 @@ function displayCandy() {
             // Displays Candy Shop's inventory
             foreach($candies as $candy) {
                 $candyname = $candy['candyName'];
-                echo "<h3><a href='candyInfo.php?candyId=".$candy['candyId']."'> $candyname </a></h3>";
+                echo "<h4><a href='candyInfo.php?candyId=".$candy['candyId']."'> $candyname </a></h4>";
                 echo "Calories: ".$candy['caloriesId'];
                 echo str_repeat("&nbsp;", 3); 
                 echo " Price: $".$candy['priceId'];
