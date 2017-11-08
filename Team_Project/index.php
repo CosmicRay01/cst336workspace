@@ -174,7 +174,7 @@ function displayCandy() {
             // Displays Candy Shop's inventory
             foreach($candies as $candy) {
                 $candyname = $candy['candyName'];
-                echo "<h4><a href='candyInfo.php?candyId=".$candy['candyId']."'> $candyname </a></h4>";
+                echo "<h1><a href='candyInfo.php?candyId=".$candy['candyId']."'> $candyname </a></h1>";
                 echo "Calories: ".$candy['caloriesId'];
                 echo str_repeat("&nbsp;", 3); 
                 echo " Price: $".$candy['priceId'];
@@ -183,10 +183,10 @@ function displayCandy() {
                          <input type='hidden' name='candyId' value='".$candy['candyId']."' />
                          <input type='submit' value='Add To Cart'>
                       </form>";
-                echo "<br>";
                 echo"<hr>";
             }
             ?>
+            </div>
         </div>
     </body>   
 </html>
