@@ -263,7 +263,7 @@ function displayCandy() {
             echo "<strong><a href='candyInfo.php?candyId=".$candy['candyId']."'> $candyname </a></strong>";
             echo "Cal: ".$candy['caloriesId'];
                     
-            echo "<form action='addtocart.php' style='display:inline' onsubmit='return confirmAddToCart(\"".$candy['candyId']."\")'>
+            echo "<form action='addtocart.php' style='display:inline' onsubmit='return confirmAddToCart(\"".$candy['candyName']."\")'>
                      <input type='hidden' name='candyId' value='".$candy['candyId']."' />
                      <input type='submit' value='Add To Cart'>
                   </form>";
