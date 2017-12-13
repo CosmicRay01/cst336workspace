@@ -99,3 +99,1275 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336workspace/Team_Project/candyInfo.php(40): displayCandy()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336workspace/Team_Project/candyInfo.php on line 14
+[08-Dec-2017 08:15:54 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php on line 5
+[08-Dec-2017 08:15:54 UTC] PHP Stack trace:
+[08-Dec-2017 08:15:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php:0
+[08-Dec-2017 08:15:54 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php on line 5
+[08-Dec-2017 08:15:54 UTC] PHP Stack trace:
+[08-Dec-2017 08:15:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php:0
+[08-Dec-2017 08:15:54 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php on line 6
+[08-Dec-2017 08:15:54 UTC] PHP Stack trace:
+[08-Dec-2017 08:15:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php:0
+[08-Dec-2017 08:17:03 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 11
+[08-Dec-2017 08:17:03 UTC] PHP Stack trace:
+[08-Dec-2017 08:17:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 08:17:03 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 11
+[08-Dec-2017 08:17:03 UTC] PHP Stack trace:
+[08-Dec-2017 08:17:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 08:17:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 12
+[08-Dec-2017 08:17:03 UTC] PHP Stack trace:
+[08-Dec-2017 08:17:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 08:17:19 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 11
+[08-Dec-2017 08:17:19 UTC] PHP Stack trace:
+[08-Dec-2017 08:17:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 08:17:19 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 11
+[08-Dec-2017 08:17:19 UTC] PHP Stack trace:
+[08-Dec-2017 08:17:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 08:17:19 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 12
+[08-Dec-2017 08:17:19 UTC] PHP Stack trace:
+[08-Dec-2017 08:17:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 08:17:42 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 11
+[08-Dec-2017 08:17:42 UTC] PHP Stack trace:
+[08-Dec-2017 08:17:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:0
+[08-Dec-2017 08:17:42 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 11
+[08-Dec-2017 08:17:42 UTC] PHP Stack trace:
+[08-Dec-2017 08:17:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:0
+[08-Dec-2017 08:17:42 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 12
+[08-Dec-2017 08:17:42 UTC] PHP Stack trace:
+[08-Dec-2017 08:17:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:0
+[08-Dec-2017 08:18:36 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 11
+[08-Dec-2017 08:18:36 UTC] PHP Stack trace:
+[08-Dec-2017 08:18:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:0
+[08-Dec-2017 08:18:36 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 11
+[08-Dec-2017 08:18:36 UTC] PHP Stack trace:
+[08-Dec-2017 08:18:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:0
+[08-Dec-2017 08:18:36 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 12
+[08-Dec-2017 08:18:36 UTC] PHP Stack trace:
+[08-Dec-2017 08:18:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:0
+[08-Dec-2017 08:18:38 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 11
+[08-Dec-2017 08:18:38 UTC] PHP Stack trace:
+[08-Dec-2017 08:18:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:0
+[08-Dec-2017 08:18:38 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 11
+[08-Dec-2017 08:18:38 UTC] PHP Stack trace:
+[08-Dec-2017 08:18:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:0
+[08-Dec-2017 08:18:38 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 12
+[08-Dec-2017 08:18:38 UTC] PHP Stack trace:
+[08-Dec-2017 08:18:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:0
+[08-Dec-2017 09:29:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.bread' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(80): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 21
+[08-Dec-2017 09:30:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(83): displayUser(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 33
+[08-Dec-2017 09:31:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(83): displayUser(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 33
+[08-Dec-2017 09:31:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(83): displayUser(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 33
+[08-Dec-2017 09:31:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(83): displayUser(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 33
+[08-Dec-2017 09:32:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(83): displayUser(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 33
+[08-Dec-2017 09:32:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(83): displayUser(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 33
+[08-Dec-2017 09:33:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(33): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(83): displayUser(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 33
+[08-Dec-2017 09:34:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(82): displayUser(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 32
+[08-Dec-2017 09:34:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(82): displayUser(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 32
+[08-Dec-2017 09:34:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(82): displayUser(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 32
+[08-Dec-2017 10:01:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_user' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(57): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 21
+[08-Dec-2017 10:01:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_user' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(57): getUserInfo('Bolillo')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 32
+[08-Dec-2017 10:03:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_user' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(57): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 21
+[08-Dec-2017 10:03:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_user' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(57): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 21
+[08-Dec-2017 10:05:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(57): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 21
+[08-Dec-2017 10:06:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(57): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 21
+[08-Dec-2017 10:06:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(57): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 21
+[08-Dec-2017 10:10:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(102): displayCandy()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 16
+[08-Dec-2017 10:11:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(102): displayCandy()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 16
+[08-Dec-2017 10:11:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(102): displayCandy()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 16
+[08-Dec-2017 10:11:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(102): displayCandy()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 16
+[08-Dec-2017 10:12:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(102): displayCandy()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 16
+[08-Dec-2017 10:13:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php(102): displayCandy()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/userInfo.php on line 16
+[08-Dec-2017 10:24:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php on line 29
+[08-Dec-2017 10:25:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php on line 29
+[08-Dec-2017 10:25:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php on line 29
+[08-Dec-2017 10:39:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.admin' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php on line 29
+[08-Dec-2017 10:40:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.bread' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(83): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 20
+[08-Dec-2017 10:54:11 UTC] PHP Fatal error:  Maximum function nesting level of '256' reached, aborting! in /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php on line 2
+[08-Dec-2017 10:54:11 UTC] PHP Stack trace:
+[08-Dec-2017 10:54:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/login_Process.php:0
+[08-Dec-2017 10:54:11 UTC] PHP   2. include() /home/ubuntu/workspace/cst336workspace/FinalProject/login_Process.php:5
+[08-Dec-2017 10:54:11 UTC] PHP   3. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP   4. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP   5. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP   6. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP   7. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP   8. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP   9. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  10. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  11. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  12. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  13. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  14. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  15. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  16. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  17. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  18. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  19. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  20. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  21. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  22. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  23. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  24. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  25. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  26. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  27. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  28. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  29. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  30. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  31. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  32. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  33. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  34. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  35. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  36. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  37. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  38. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  39. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  40. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  41. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  42. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  43. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  44. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  45. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  46. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  47. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  48. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  49. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  50. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  51. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  52. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  53. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  54. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  55. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  56. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  57. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  58. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  59. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  60. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  61. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  62. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  63. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  64. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  65. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  66. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  67. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  68. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  69. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  70. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  71. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  72. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  73. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  74. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  75. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  76. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  77. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  78. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  79. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  80. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  81. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  82. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  83. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  84. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  85. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  86. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  87. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  88. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  89. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  90. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  91. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  92. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  93. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  94. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  95. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  96. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  97. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  98. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP  99. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 100. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 101. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 102. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 103. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 104. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 105. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 106. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 107. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 108. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 109. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 110. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 111. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 112. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 113. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 114. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 115. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 116. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 117. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 118. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 119. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 120. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 121. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 122. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 123. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 124. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 125. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 126. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 127. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 128. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 129. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 130. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 131. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 132. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 133. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 134. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 135. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 136. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 137. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 138. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 139. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 140. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 141. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 142. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 143. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 144. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 145. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 146. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 147. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 148. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 149. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 150. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 151. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 152. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 153. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 154. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 155. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 156. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 157. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 158. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 159. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 160. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 161. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 162. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 163. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 164. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 165. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 166. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 167. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 168. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 169. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 170. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 171. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 172. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 173. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 174. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 175. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 176. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 177. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 178. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 179. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 180. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 181. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 182. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 183. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 184. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 185. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 186. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 187. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 188. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 189. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 190. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 191. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 192. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 193. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 194. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 195. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 196. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 197. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 198. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 199. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 200. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 201. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 202. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 203. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 204. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 205. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 206. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 207. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 208. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 209. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 210. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 211. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 212. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 213. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 214. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 215. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 216. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 217. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 218. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 219. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 220. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 221. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 222. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 223. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 224. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 225. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 226. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 227. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 228. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 229. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 230. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 231. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 232. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 233. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 234. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 235. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 236. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 237. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 238. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 239. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 240. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 241. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 242. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 243. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 244. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 245. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 246. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 247. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 248. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 249. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 250. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 251. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 252. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 253. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 254. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 255. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:11 UTC] PHP 256. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP Fatal error:  Maximum function nesting level of '256' reached, aborting! in /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php on line 2
+[08-Dec-2017 10:54:28 UTC] PHP Stack trace:
+[08-Dec-2017 10:54:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/login_Process.php:0
+[08-Dec-2017 10:54:28 UTC] PHP   2. include() /home/ubuntu/workspace/cst336workspace/FinalProject/login_Process.php:5
+[08-Dec-2017 10:54:28 UTC] PHP   3. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP   4. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP   5. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP   6. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP   7. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP   8. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP   9. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  10. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  11. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  12. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  13. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  14. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  15. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  16. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  17. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  18. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  19. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  20. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  21. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  22. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  23. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  24. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  25. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  26. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  27. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  28. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  29. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  30. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  31. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  32. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  33. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  34. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  35. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  36. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  37. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  38. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  39. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  40. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  41. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  42. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  43. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  44. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  45. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  46. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  47. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  48. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  49. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  50. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  51. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  52. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  53. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  54. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  55. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  56. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  57. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  58. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  59. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  60. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  61. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  62. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  63. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  64. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  65. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  66. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  67. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  68. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  69. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  70. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  71. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  72. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  73. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  74. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  75. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  76. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  77. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  78. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  79. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  80. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  81. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  82. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  83. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  84. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  85. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  86. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  87. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  88. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  89. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  90. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  91. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  92. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  93. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  94. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  95. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  96. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  97. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  98. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP  99. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 100. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 101. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 102. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 103. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 104. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 105. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 106. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 107. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 108. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 109. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 110. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 111. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 112. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 113. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 114. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 115. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 116. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 117. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 118. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 119. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 120. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 121. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 122. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 123. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 124. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 125. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 126. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 127. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 128. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 129. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 130. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 131. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 132. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 133. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 134. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 135. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 136. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 137. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 138. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 139. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 140. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 141. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 142. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 143. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 144. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 145. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 146. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 147. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 148. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 149. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 150. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 151. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 152. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 153. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 154. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 155. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 156. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 157. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 158. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 159. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 160. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 161. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 162. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 163. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 164. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 165. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 166. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 167. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 168. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 169. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 170. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 171. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 172. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 173. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 174. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 175. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 176. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 177. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 178. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 179. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 180. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 181. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 182. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 183. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 184. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 185. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 186. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 187. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 188. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 189. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 190. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 191. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 192. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 193. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 194. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 195. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 196. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 197. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 198. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 199. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 200. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 201. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 202. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 203. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 204. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 205. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 206. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 207. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 208. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 209. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 210. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 211. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 212. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 213. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 214. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 215. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 216. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 217. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 218. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 219. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 220. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 221. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 222. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 223. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 224. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 225. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 226. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 227. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 228. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 229. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 230. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 231. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 232. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 233. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 234. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 235. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 236. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 237. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 238. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 239. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 240. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 241. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 242. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 243. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 244. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 245. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 246. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 247. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 248. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 249. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 250. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 251. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 252. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 253. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 254. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 255. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:28 UTC] PHP 256. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP Fatal error:  Maximum function nesting level of '256' reached, aborting! in /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php on line 2
+[08-Dec-2017 10:54:58 UTC] PHP Stack trace:
+[08-Dec-2017 10:54:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/login_Process.php:0
+[08-Dec-2017 10:54:58 UTC] PHP   2. include() /home/ubuntu/workspace/cst336workspace/FinalProject/login_Process.php:5
+[08-Dec-2017 10:54:58 UTC] PHP   3. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP   4. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP   5. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP   6. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP   7. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP   8. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP   9. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  10. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  11. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  12. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  13. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  14. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  15. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  16. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  17. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  18. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  19. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  20. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  21. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  22. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  23. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  24. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  25. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  26. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  27. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  28. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  29. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  30. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  31. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  32. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  33. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  34. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  35. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  36. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  37. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  38. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  39. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  40. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  41. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  42. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  43. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  44. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  45. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  46. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  47. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  48. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  49. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  50. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  51. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  52. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  53. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  54. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  55. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  56. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  57. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  58. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  59. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  60. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  61. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  62. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  63. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  64. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  65. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  66. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  67. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  68. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  69. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  70. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  71. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  72. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  73. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  74. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  75. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  76. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  77. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  78. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  79. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  80. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  81. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  82. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  83. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  84. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  85. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  86. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  87. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  88. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  89. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  90. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  91. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  92. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  93. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  94. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  95. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  96. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  97. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  98. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP  99. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 100. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 101. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 102. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 103. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 104. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 105. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 106. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 107. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 108. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 109. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 110. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 111. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 112. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 113. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 114. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 115. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 116. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 117. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 118. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 119. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 120. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 121. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 122. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 123. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 124. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 125. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 126. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 127. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 128. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 129. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 130. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 131. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 132. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 133. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 134. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 135. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 136. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 137. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 138. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 139. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 140. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 141. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 142. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 143. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 144. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 145. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 146. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 147. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 148. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 149. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 150. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 151. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 152. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 153. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 154. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 155. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 156. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 157. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 158. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 159. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 160. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 161. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 162. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 163. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 164. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 165. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 166. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 167. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 168. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 169. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 170. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 171. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 172. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 173. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 174. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 175. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 176. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 177. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 178. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 179. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 180. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 181. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 182. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 183. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 184. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 185. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 186. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 187. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 188. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 189. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 190. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 191. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 192. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 193. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 194. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 195. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 196. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 197. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 198. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 199. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 200. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 201. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 202. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 203. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 204. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 205. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 206. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 207. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 208. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 209. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 210. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 211. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 212. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 213. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 214. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 215. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 216. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 217. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 218. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 219. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 220. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 221. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 222. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 223. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 224. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 225. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 226. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 227. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 228. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 229. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 230. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 231. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 232. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 233. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 234. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 235. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 236. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 237. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 238. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 239. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 240. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 241. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 242. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 243. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 244. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 245. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 246. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 247. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 248. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 249. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 250. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 251. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 252. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 253. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 254. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 255. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:54:58 UTC] PHP 256. include() /home/ubuntu/workspace/cst336workspace/FinalProject/dbConnection.php:5
+[08-Dec-2017 10:58:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/login_Process.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/login_Process.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/login_Process.php on line 29
+[08-Dec-2017 11:01:24 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php on line 5
+[08-Dec-2017 11:01:24 UTC] PHP Stack trace:
+[08-Dec-2017 11:01:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php:0
+[08-Dec-2017 11:01:24 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php on line 5
+[08-Dec-2017 11:01:24 UTC] PHP Stack trace:
+[08-Dec-2017 11:01:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php:0
+[08-Dec-2017 11:01:24 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php on line 6
+[08-Dec-2017 11:01:24 UTC] PHP Stack trace:
+[08-Dec-2017 11:01:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php:0
+[08-Dec-2017 11:02:24 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 11
+[08-Dec-2017 11:02:24 UTC] PHP Stack trace:
+[08-Dec-2017 11:02:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 11:02:24 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 11
+[08-Dec-2017 11:02:24 UTC] PHP Stack trace:
+[08-Dec-2017 11:02:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 11:02:24 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 12
+[08-Dec-2017 11:02:24 UTC] PHP Stack trace:
+[08-Dec-2017 11:02:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 11:03:02 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 11
+[08-Dec-2017 11:03:02 UTC] PHP Stack trace:
+[08-Dec-2017 11:03:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 11:03:02 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 11
+[08-Dec-2017 11:03:02 UTC] PHP Stack trace:
+[08-Dec-2017 11:03:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 11:03:02 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 12
+[08-Dec-2017 11:03:02 UTC] PHP Stack trace:
+[08-Dec-2017 11:03:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 11:04:51 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 11
+[08-Dec-2017 11:04:51 UTC] PHP Stack trace:
+[08-Dec-2017 11:04:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 11:04:51 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 11
+[08-Dec-2017 11:04:51 UTC] PHP Stack trace:
+[08-Dec-2017 11:04:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 11:04:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 12
+[08-Dec-2017 11:04:51 UTC] PHP Stack trace:
+[08-Dec-2017 11:04:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 11:05:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.bread' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(83): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 20
+[08-Dec-2017 11:05:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.bread' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(83): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 20
+[08-Dec-2017 11:06:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/loginProcess.php on line 29
+[08-Dec-2017 11:14:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_department' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/addUser.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/addUser.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/addUser.php(99): getDepartmentInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/addUser.php on line 19
+[08-Dec-2017 11:14:44 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 10
+[08-Dec-2017 11:14:44 UTC] PHP Stack trace:
+[08-Dec-2017 11:14:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:0
+[08-Dec-2017 11:14:44 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 10
+[08-Dec-2017 11:14:44 UTC] PHP Stack trace:
+[08-Dec-2017 11:14:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:0
+[08-Dec-2017 11:14:44 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 11
+[08-Dec-2017 11:14:44 UTC] PHP Stack trace:
+[08-Dec-2017 11:14:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:0
+[08-Dec-2017 11:14:47 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 10
+[08-Dec-2017 11:14:47 UTC] PHP Stack trace:
+[08-Dec-2017 11:14:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:0
+[08-Dec-2017 11:14:47 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 10
+[08-Dec-2017 11:14:47 UTC] PHP Stack trace:
+[08-Dec-2017 11:14:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:0
+[08-Dec-2017 11:14:47 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 11
+[08-Dec-2017 11:14:47 UTC] PHP Stack trace:
+[08-Dec-2017 11:14:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:0
+[08-Dec-2017 11:16:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_user' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(57): getUserInfo('1')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 32
+[08-Dec-2017 11:22:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_department' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(107): getDepartmentInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 19
+[08-Dec-2017 11:22:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_department' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(107): getDepartmentInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 19
+[08-Dec-2017 11:26:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_department' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(107): getDepartmentInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 19
+[08-Dec-2017 11:30:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 52
+[08-Dec-2017 11:34:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 52
+[08-Dec-2017 11:40:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:54
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(54): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 54
+[08-Dec-2017 11:41:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:54
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(54): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 54
+[08-Dec-2017 11:42:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '100' for key 'PRIMARY'' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:54
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(54): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 54
+[08-Dec-2017 11:43:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(61): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 32
+[08-Dec-2017 11:51:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.bread' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(49): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 49
+[08-Dec-2017 11:51:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(57): getUserInfo('1')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 32
+[08-Dec-2017 11:52:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.bread' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(49): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 49
+[08-Dec-2017 11:56:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'breadType' in 'field list'' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 42
+[08-Dec-2017 11:59:40 UTC] PHP Parse error:  syntax error, unexpected '$namedParameters' (T_VARIABLE) in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 37
+[08-Dec-2017 15:51:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 42
+[08-Dec-2017 15:52:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(43): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 43
+[08-Dec-2017 15:54:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 42
+[08-Dec-2017 15:58:20 UTC] PHP Parse error:  syntax error, unexpected '`' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 28
+[08-Dec-2017 15:58:23 UTC] PHP Parse error:  syntax error, unexpected '`' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 28
+[08-Dec-2017 15:59:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 42
+[08-Dec-2017 16:05:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 37
+[08-Dec-2017 16:07:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 37
+[08-Dec-2017 16:07:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 37
+[08-Dec-2017 16:07:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 37
+[08-Dec-2017 16:11:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateUser.php on line 38
+[08-Dec-2017 16:29:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst336workspace/FinalProject/index.php on line 92
+[08-Dec-2017 16:31:08 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336workspace/FinalProject/index.php on line 91
+[08-Dec-2017 16:51:59 UTC] PHP Fatal error:  Call to undefined function displayUsers() in /home/ubuntu/workspace/cst336workspace/FinalProject/index.php on line 49
+[08-Dec-2017 16:51:59 UTC] PHP Stack trace:
+[08-Dec-2017 16:51:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/index.php:0
+[08-Dec-2017 16:52:56 UTC] PHP Fatal error:  Call to undefined function displayUsers() in /home/ubuntu/workspace/cst336workspace/FinalProject/index.php on line 49
+[08-Dec-2017 16:52:56 UTC] PHP Stack trace:
+[08-Dec-2017 16:52:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/index.php:0
+[08-Dec-2017 16:53:00 UTC] PHP Fatal error:  Call to undefined function displayUsers() in /home/ubuntu/workspace/cst336workspace/FinalProject/index.php on line 49
+[08-Dec-2017 16:53:00 UTC] PHP Stack trace:
+[08-Dec-2017 16:53:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/index.php:0
+[08-Dec-2017 16:53:37 UTC] PHP Fatal error:  Call to undefined function displayPastry() in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 77
+[08-Dec-2017 16:53:37 UTC] PHP Stack trace:
+[08-Dec-2017 16:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 16:54:29 UTC] PHP Fatal error:  Call to undefined function displayPastry() in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 77
+[08-Dec-2017 16:54:29 UTC] PHP Stack trace:
+[08-Dec-2017 16:54:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:0
+[08-Dec-2017 17:34:51 UTC] PHP Parse error:  syntax error, unexpected 'submit' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 132
+[08-Dec-2017 17:44:27 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst336workspace/FinalProject/index.php on line 57
+[08-Dec-2017 18:12:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateBread.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateBread.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/updateBread.php(46): getUserInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateBread.php on line 21
+[08-Dec-2017 18:26:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.allergies' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/breadInfo.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/breadInfo.php(65): PDO->query('SELECT* FROM al...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/breadInfo.php on line 65
+[08-Dec-2017 18:28:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM type WHERE typeId = '1'' at line 1' in /home/ubuntu/workspace/cst336workspace/FinalProject/breadInfo.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/breadInfo.php(65): PDO->query('SELECT FROM typ...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/breadInfo.php on line 65
+[08-Dec-2017 18:29:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'allergyDesc' in 'field list'' in /home/ubuntu/workspace/cst336workspace/FinalProject/breadInfo.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/breadInfo.php(65): PDO->query('SELECT allergyD...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/breadInfo.php on line 65
+[08-Dec-2017 18:34:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/breadInfo.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/breadInfo.php(28): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/breadInfo.php(66): displayType()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/breadInfo.php on line 28
+[08-Dec-2017 18:47:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(43): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php(89): displayPrice(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/admin.php on line 43
+[08-Dec-2017 19:07:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '2' in 'field list'' in /home/ubuntu/workspace/cst336workspace/FinalProject/updateBread.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/updateBread.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/updateBread.php on line 40
+[08-Dec-2017 19:15:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_department' doesn't exist' in /home/ubuntu/workspace/cst336workspace/FinalProject/addBread.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/addBread.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/FinalProject/addBread.php(99): getDepartmentInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/addBread.php on line 19
+[08-Dec-2017 19:19:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336workspace/FinalProject/addBread.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/FinalProject/addBread.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/FinalProject/addBread.php on line 51

@@ -14,6 +14,7 @@
                 <li><a href="/cst336workspace/Labs/lab6/index.php">Lab 6</a></li>
                 <li><a href="/cst336workspace/Labs/hangman/hangman/index.html">Lab7</a></li>
                 <li><a href="/cst336workspace/Team_Project/index.php">Group Project</a></li>
+                <li><a href="/cst336workspace/FinalProject/index.php"> Final Project</a></li>
             </ul>
             <figure id="cpp">
                     <img src="cpp.png" width=200>

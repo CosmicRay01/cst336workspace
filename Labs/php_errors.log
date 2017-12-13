@@ -107,3 +107,60 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php(99): getDeviceTypes()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab5/index.php on line 14
+[08-Dec-2017 09:56:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_user' doesn't exist' in /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php(80): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php on line 21
+[08-Dec-2017 09:59:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_user' doesn't exist' in /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php(80): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php on line 21
+[08-Dec-2017 09:59:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_user' doesn't exist' in /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php(80): displayUsers()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab6/admin.php on line 21
+[08-Dec-2017 10:32:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php on line 29
+[08-Dec-2017 10:33:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php on line 29
+[08-Dec-2017 10:33:51 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php on line 5
+[08-Dec-2017 10:33:51 UTC] PHP Stack trace:
+[08-Dec-2017 10:33:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php:0
+[08-Dec-2017 10:33:51 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php on line 5
+[08-Dec-2017 10:33:51 UTC] PHP Stack trace:
+[08-Dec-2017 10:33:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php:0
+[08-Dec-2017 10:33:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php on line 6
+[08-Dec-2017 10:33:51 UTC] PHP Stack trace:
+[08-Dec-2017 10:33:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php:0
+[08-Dec-2017 10:34:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php on line 29
+[08-Dec-2017 10:34:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php on line 29
+[08-Dec-2017 10:34:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php on line 29
+[08-Dec-2017 10:34:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Final_Project.tc_admin' doesn't exist' in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336workspace/Labs/lab6/loginProcess.php on line 29
